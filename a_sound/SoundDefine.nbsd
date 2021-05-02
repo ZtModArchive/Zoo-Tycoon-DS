@@ -1,0 +1,409 @@
+/* _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+|
+|	SoundDefine.nbsd
+|		SOUND EDITOR読み込み対応SOUND定数定義ファイル
++ -----------------------------------------------------------------------------------------
+|	<注意事項>
+|	1 <---->　←タグで囲んであるコメントは消さないでください、ＴＯＯＬが動作しません
+|	2 コメント /*  には対応していません定義時のコメントは // を使ってください
+|	3 コメントは必ず書いてください
+|	4 あんまりひねくれたことしないでください
+|	</注意事項>
++ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ */
+
+//<WAVE>
+
+// ----------- WAVE DEFINE --------------
+// 効果音
+#define WAVE_START			0	//
+#define WAVE_CURSOR_MOVE	1	// カーソル移動
+#define WAVE_OK				2	// 決定
+#define WAVE_CANCEL			3	// キャンセル
+#define WAVE_PAUSE			4	// ポーズ
+#define WAVE_ZOOMIN			5	// 画面拡大
+#define WAVE_ZOOMOUT		6	// 画面縮小
+#define WAVE_NG				7	// 何もないとき(ＮＧ音)
+#define WAVE_BABOON			8	// アヌビスヒヒ
+#define WAVE_ZEBRA			9	// シマウマ
+#define WAVE_GAZELLE		10	// トムソンガゼル
+#define WAVE_WILDBEEST		11	// ヌー
+#define WAVE_GIRAFFE		12	// 麒麟
+#define WAVE_LION			13	// ライオン
+#define WAVE_WILDDOG		14	// リカオン
+#define WAVE_BLACKBUCK		15	// ブラックバック
+#define WAVE_WILDHORSE		16	// モウコノウマ
+#define WAVE_BLACKBEAR		17	// アメリカクロクマ
+#define WAVE_MOOSE			18	// ムース
+#define WAVE_M_GRAYWORF		19	// メキシコハイイロオオカミ
+#define WAVE_J_SEROW		20	// 日本カモシカ
+#define WAVE_S_TIGER		21	// シベリアタイガー
+#define WAVE_GRIZZLY		22	// ハイイログマ
+#define WAVE_GRAYWORF		23	// ハイイロオオカミ
+#define WAVE_BIGFOOT		24	// ビックフット	
+#define WAVE_CHIMPANZEE		25	// チンパンジー
+#define WAVE_BONGO			26	// ボンゴ
+#define WAVE_ELEPHANT		27	// アフリカゾウ
+#define WAVE_ORANGUTAN		28	// オランウータン
+#define WAVE_RHINOCEROS		29	// ジャワサイ
+#define WAVE_B_TIGER		30	// ベンガルトラ
+#define WAVE_TAPIR			31	// マレーバク
+#define WAVE_A_BLACKBEAR	32	// アメリカクロクマ
+#define WAVE_LLMA			33	// リャマ
+#define WAVE_MLION			34	// ピューマ
+#define WAVE_BIGHORN		35	// ビックホーン
+#define WAVE_MAGNET			36	// マグネット
+#define WAVE_REINDEER		37	// トナカイ
+#define WAVE_YETI			38	// イエティ
+#define WAVE_EPENGUIN		39	// コウテイペンギン
+#define WAVE_A_ELEPHANT		40	// アジア象
+#define WAVE_B_RHINOCEROS	41	// クロサイ
+#define WAVE_BUFFALO		42	// バッファロー
+#define WAVE_HIPPOPOTOMUS	43	// カバ
+#define WAVE_CHEETAH		44	// チーター
+#define WAVE_LEOPARD		45	// ヒョウ
+#define WAVE_S_HYENA		46	// ハイエナ
+#define WAVE_FLAMINGO		47	// フラミンゴ
+#define WAVE_OSTRICH		48	// ダチョウ
+#define WAVE_A_WARTHOG		49	// イボイノシシ
+#define WAVE_KANGAROO		50	// カンガルー
+#define WAVE_A_BISON		51	// アメリカバイソン
+#define WAVE_GRAYWORF2		52	// 狼？？
+#define WAVE_MANDRILL		53	// マンドリル
+#define WAVE_C_LEOPARD		54	// ウンピョウ
+#define WAVE_JAGUAR			55	// ジャガー
+#define WAVE_ANTEARTER		56	// シュッシュシュ
+#define WAVE_MARKHOR		57	// マーコール
+#define WAVE_IBEX			58	// アイベックス
+#define WAVE_P_BEAR			59	// シロクマ
+#define WAVE_A_WOLF			60	// 北極娘
+#define WAVE_GEMSBOK		61	// ゲムズボック
+#define WAVE_CAMEL			62	// ヒトコブラクダ
+#define WAVE_CROCODILE		63	// ソルトウォータークロコダイル
+#define WAVE_DOG			64	// 犬
+#define WAVE_BOY			65	// 子供（男）
+#define WAVE_GIRL			66	// 子供（女）
+#define WAVE_MAN			67	// 男
+#define WAVE_WOMEN			68	// 女
+#define WAVE_FOREST			69	// 森１
+#define WAVE_BABBLE			70	// ざわめき
+#define WAVE_RIVER			71	// 川・海
+#define WAVE_SE_70			72	// 建物を建てる
+#define WAVE_SE_71			73	// 柵を作る
+#define WAVE_SE_72			74	// 柵を壊す
+#define WAVE_SE_73			75	// 柵の電気
+#define WAVE_SE_74			76	// 柵の開閉
+#define WAVE_SE_75			77	// ガンを撃つ
+#define WAVE_SE_76			78	// 掃除をする
+#define WAVE_SE_77			79	// ものを置く
+#define WAVE_SE_78			80	// お菓子の自動販売機
+#define WAVE_SE_79			81	// 飲物の自動販売機
+#define WAVE_SE_80			82	// トイレ
+#define WAVE_SE_81			83	// ギフトスタンド
+#define WAVE_SE_82			84	// ホットドッグスタンド
+#define WAVE_SE_83			85	// ファンシーアイスクリーム
+#define WAVE_SE_84			86	// バーガースタンド
+#define WAVE_SE_85			87	// ドリンクスタンド
+#define WAVE_SE_86			88	// ファミリートイレ
+#define WAVE_SE_87			89	// ファンシーホットドッグ
+#define WAVE_SE_88			90	// ピザショップ
+#define WAVE_SE_89			91	// ファンシーバーガー
+#define WAVE_SE_90			92	// ファンシードリンク
+#define WAVE_SE_91			93	// ファンシートイレ
+#define WAVE_SE_92			94	// 綿菓子
+#define WAVE_SE_93			95	// ナチョショップ
+#define WAVE_SE_94			96	// カキ氷スタンド
+#define WAVE_SE_95			97	// ファンスィーピザ
+#define WAVE_SE_96			98	// 無し
+#define WAVE_SE_97			99	// 動物劇場
+#define WAVE_SE_98			100	// ギフトショップ
+#define WAVE_SE_99			101	// 無し
+#define WAVE_SE_100			102	// 無し
+#define WAVE_SE_101			103	// 無し
+#define WAVE_SE_102			104	// 無し
+#define WAVE_SE_103			105	// 無し
+#define WAVE_SE_104			106	// 無し
+#define WAVE_SE_105			107	// 無し
+#define WAVE_SE_106			108	// 無し
+#define WAVE_SE_107			109	// 無し
+#define WAVE_SE_108			110	// 無し
+#define WAVE_SE_109			111	// 無し
+#define WAVE_SE_110			112	// 無し
+#define WAVE_SE_111			113	// 無し
+#define WAVE_SE_112			114	// 無し
+
+// BGM
+#define	WAVE_BGM		0	// BGM WAVE
+
+//</WAVE>
+
+//<BANK>
+
+// ----------- BANK DEFINE -------------- 
+// 効果音
+#define BANK_START			0	// スタート
+#define BANK_CURSOR_MOVE	1	// カーソル移動
+#define BANK_OK				2	// 決定
+#define BANK_CANCEL			3	// キャンセル
+#define BANK_PAUSE			4	// ポーズ
+#define BANK_ZOOMIN			5	// 画面拡大
+#define BANK_ZOOMOUT		6	// 画面縮小
+#define BANK_NG				7	// 何もないとき(ＮＧ音)
+#define BANK_BABOON			8	// アヌビスヒヒ
+#define BANK_ZEBRA			9	// シマウマ
+#define BANK_GAZELLE		10	// トムソンガゼル
+#define BANK_WILDBEEST		11	// ヌー
+#define BANK_GIRAFFE		12	// 麒麟
+#define BANK_LION			13	// ライオン
+#define BANK_WILDDOG		14	// リカオン
+#define BANK_BLACKBUCK		15	// ブラックバック
+#define BANK_WILDHORSE		16	// モウコノウマ
+#define BANK_BLACKBEAR		17	// アメリカクロクマ
+#define BANK_MOOSE			18	// ムース
+#define BANK_M_GRAYWORF		19	// メキシコハイイロオオカミ
+#define BANK_J_SEROW		20	// 日本カモシカ
+#define BANK_S_TIGER		21	// シベリアタイガー
+#define BANK_GRIZZLY		22	// ハイイログマ
+#define BANK_GRAYWORF		23	// ハイイロオオカミ
+#define BANK_BIGFOOT		24	// ビックフット	
+#define BANK_CHIMPANZEE		25	// チンパンジー
+#define BANK_BONGO			26	// ボンゴ
+#define BANK_ELEPHANT		27	// アフリカゾウ
+#define BANK_ORANGUTAN		28	// オランウータン
+#define BANK_RHINOCEROS		29	// ジャワサイ
+#define BANK_B_TIGER		30	// ベンガルトラ
+#define BANK_TAPIR			31	// マレーバク
+#define BANK_A_BLACKBEAR	32	// アメリカクロクマ
+#define BANK_LLMA			33	// リャマ
+#define BANK_MLION			34	// ピューマ
+#define BANK_BIGHORN		35	// ビックホーン
+#define BANK_MAGNET			36	// マグネット
+#define BANK_REINDEER		37	// トナカイ
+#define BANK_YETI			38	// イエティ
+#define BANK_EPENGUIN		39	// コウテイペンギン
+#define BANK_A_ELEPHANT		40	// アジア象
+#define BANK_B_RHINOCEROS	41	// クロサイ
+#define BANK_BUFFALO		42	// バッファロー
+#define BANK_HIPPOPOTOMUS	43	// カバ
+#define BANK_CHEETAH		44	// チーター
+#define BANK_LEOPARD		45	// ヒョウ
+#define BANK_S_HYENA		46	// ハイエナ
+#define BANK_FLAMINGO		47	// フラミンゴ
+#define BANK_OSTRICH		48	// ダチョウ
+#define BANK_A_WARTHOG		49	// イボイノシシ
+#define BANK_KANGAROO		50	// カンガルー
+#define BANK_A_BISON		51	// アメリカバイソン
+#define BANK_GRAYWORF2		52	// 狼？？
+#define BANK_MANDRILL		53	// マンドリル
+#define BANK_C_LEOPARD		54	// ウンピョウ
+#define BANK_JAGUAR			55	// ジャガー
+#define BANK_ANTEARTER		56	// シュッシュシュ
+#define BANK_MARKHOR		57	// マーコール
+#define BANK_IBEX			58	// アイベックス
+#define BANK_P_BEAR			59	// シロクマ
+#define BANK_A_WOLF			60	// 北極娘
+#define BANK_GEMSBOK		61	// ゲムズボック
+#define BANK_CAMEL			62	// ヒトコブラクダ
+#define BANK_CROCODILE		63	// ソルトウォータークロコダイル
+#define BANK_DOG			64	// 犬
+#define BANK_BOY			65	// 子供（男）
+#define BANK_GIRL			66	// 子供（女）
+#define BANK_MAN			67	// 男
+#define BANK_WOMEN			68	// 女
+#define BANK_FOREST			69	// 森１
+#define BANK_BABBLE			70	// ざわめき
+#define BANK_RIVER			71	// 川・海
+#define BANK_SE_70			72	// 建物を建てる
+#define BANK_SE_71			73	// 柵を作る
+#define BANK_SE_72			74	// 柵を壊す
+#define BANK_SE_73			75	// 柵の電気
+#define BANK_SE_74			76	// 柵の開閉
+#define BANK_SE_75			77	// ガンを撃つ
+#define BANK_SE_76			78	// 掃除をする
+#define BANK_SE_77			79	// ものを置く
+#define BANK_SE_78			80	// お菓子の自動販売機
+#define BANK_SE_79			81	// 飲物の自動販売機
+#define BANK_SE_80			82	// トイレ
+#define BANK_SE_81			83	// ギフトスタンド
+#define BANK_SE_82			84	// ホットドッグスタンド
+#define BANK_SE_83			85	// ファンシーアイスクリーム
+#define BANK_SE_84			86	// バーガースタンド
+#define BANK_SE_85			87	// ドリンクスタンド
+#define BANK_SE_86			88	// ファミリートイレ
+#define BANK_SE_87			89	// ファンシーホットドッグ
+#define BANK_SE_88			90	// ピザショップ
+#define BANK_SE_89			91	// ファンシーバーガー
+#define BANK_SE_90			92	// ファンシードリンク
+#define BANK_SE_91			93	// ファンシートイレ
+#define BANK_SE_92			94	// 綿菓子
+#define BANK_SE_93			95	// ナチョショップ
+#define BANK_SE_94			96	// カキ氷スタンド
+#define BANK_SE_95			97	// ファンスィーピザ
+#define BANK_SE_96			98	// 無し
+#define BANK_SE_97			99	// 動物劇場
+#define BANK_SE_98			100	// ギフトショップ
+#define BANK_SE_99			101	// 無し
+#define BANK_SE_100			102	// 無し
+#define BANK_SE_101			103	// 無し
+#define BANK_SE_102			104	// 無し
+#define BANK_SE_103			105	// 無し
+#define BANK_SE_104			106	// 無し
+#define BANK_SE_105			107	// 無し
+#define BANK_SE_106			108	// 無し
+#define BANK_SE_107			109	// 無し
+#define BANK_SE_108			110	// 無し
+#define BANK_SE_109			111	// 無し
+#define BANK_SE_110			112	// 無し
+#define BANK_SE_111			113	// 無し
+#define BANK_SE_112			114	// 無し
+
+// BGM
+#define BANK_BGM_TITLE		151	// タイトル	
+//</BANK>
+
+//<SEQ>
+
+/* ----------- SEQ DEFINE -------------- */
+#define SE_START		0	// スタート
+#define SE_CURSOR_MOVE	1	// カーソル移動
+#define SE_OK			2	// 決定
+#define SE_CANCEL		3	// キャンセル
+#define SE_PAUSE		4	// ポーズ
+#define SE_ZOOMIN		5	// 画面拡大
+#define SE_ZOOMOUT		6	// 画面縮小
+#define SE_NG			7	// 何もないとき(ＮＧ音)
+#define SE_BABOON		8	// アヌビスヒヒ
+#define SE_ZEBRA		9	// シマウマ
+#define SE_GAZELLE		10	// トムソンガゼル
+#define SE_WILDBEEST	11	// ヌー
+#define SE_GIRAFFE		12	// 麒麟
+#define SE_LION			13	// ライオン
+#define SE_WILDDOG		14	// リカオン
+#define SE_BLACKBUCK	15	// ブラックバック
+#define SE_WILDHORSE	16	// モウコノウマ
+#define SE_BLACKBEAR	17	// アメリカクロクマ
+#define SE_MOOSE		18	// ムース
+#define SE_M_GRAYWORF	19	// メキシコハイイロオオカミ
+#define SE_J_SEROW		20	// 日本カモシカ
+#define SE_S_TIGER		21	// シベリアタイガー
+#define SE_GRIZZLY		22	// ハイイログマ
+#define SE_GRAYWORF		23	// ハイイロオオカミ
+#define SE_BIGFOOT		24	// ビックフット	
+#define SE_CHIMPANZEE	25	// チンパンジー
+#define SE_BONGO		26	// ボンゴ
+#define SE_ELEPHANT		27	// アフリカゾウ
+#define SE_ORANGUTAN	28	// オランウータン
+#define SE_RHINOCEROS	29	// ジャワサイ
+#define SE_B_TIGER		30	// ベンガルトラ
+#define SE_TAPIR		31	// マレーバク
+#define SE_A_BLACKBEAR	32	// アメリカクロクマ
+#define SE_LLMA			33	// リャマ
+#define SE_MLION		34	// ピューマ
+#define SE_BIGHORN		35	// ビックホーン
+#define SE_MAGNET		36	// マグネット
+#define SE_REINDEER		37	// トナカイ
+#define SE_YETI			38	// イエティ
+#define SE_EPENGUIN		39	// コウテイペンギン
+#define SE_A_ELEPHANT	40	// アジア象
+#define SE_B_RHINOCEROS	41	// クロサイ
+#define SE_BUFFALO		42	// バッファロー
+#define SE_HIPPOPOTOMUS	43	// カバ
+#define SE_CHEETAH		44	// チーター
+#define SE_LEOPARD		45	// ヒョウ
+#define SE_S_HYENA		46	// ハイエナ
+#define SE_FLAMINGO		47	// フラミンゴ
+#define SE_OSTRICH		48	// ダチョウ
+#define SE_A_WARTHOG	49	// イボイノシシ
+#define SE_KANGAROO		50	// カンガルー
+#define SE_A_BISON		51	// アメリカバイソン
+#define SE_GRAYWORF2	52	// 狼？？
+#define SE_MANDRILL		53	// マンドリル
+#define SE_C_LEOPARD	54	// ウンピョウ
+#define SE_JAGUAR		55	// ジャガー
+#define SE_ANTEARTER	56	// シュッシュシュ
+#define SE_MARKHOR		57	// マーコール
+#define SE_IBEX			58	// アイベックス
+#define SE_P_BEAR		59	// シロクマ
+#define SE_A_WOLF		60	// 北極娘
+#define SE_GEMSBOK		61	// ゲムズボック
+#define SE_CAMEL		62	// ヒトコブラクダ
+#define SE_CROCODILE	63	// ソルトウォータークロコダイル
+#define SE_DOG			64	// 犬
+#define SE_BOY			65	// 子供（男）
+#define SE_GIRL			66	// 子供（女）
+#define SE_MAN			67	// 男
+#define SE_WOMEN		68	// 女
+#define SE_FOREST		69	// 森１
+#define SE_BABBLE		70	// ざわめき
+#define SE_RIVER		71	// 川・海
+#define SEQ_SE_70		72	// 建物を建てる
+#define SEQ_SE_71		73	// 柵を作る
+#define SEQ_SE_72		74	// 柵を壊す
+#define SEQ_SE_73		75	// 柵の電気
+#define SEQ_SE_74		76	// 柵の開閉
+#define SEQ_SE_75		77	// ガンを撃つ
+#define SEQ_SE_76		78	// 掃除をする
+#define SEQ_SE_77		79	// ものを置く
+#define SEQ_SE_78		80	// お菓子の自動販売機
+#define SEQ_SE_79		81	// 飲物の自動販売機
+#define SEQ_SE_80		82	// トイレ
+#define SEQ_SE_81		83	// ギフトスタンド
+#define SEQ_SE_82		84	// ホットドッグスタンド
+#define SEQ_SE_83		85	// ファンシーアイスクリーム
+#define SEQ_SE_84		86	// バーガースタンド
+#define SEQ_SE_85		87	// ドリンクスタンド
+#define SEQ_SE_86		88	// ファミリートイレ
+#define SEQ_SE_87		89	// ファンシーホットドッグ
+#define SEQ_SE_88		90	// ピザショップ
+#define SEQ_SE_89		91	// ファンシーバーガー
+#define SEQ_SE_90		92	// ファンシードリンク
+#define SEQ_SE_91		93	// ファンシートイレ
+#define SEQ_SE_92		94	// 綿菓子
+#define SEQ_SE_93		95	// ナチョショップ
+#define SEQ_SE_94		96	// カキ氷スタンド
+#define SEQ_SE_95		97	// ファンスィーピザ
+#define SEQ_SE_96		98	// 
+#define SEQ_SE_97		99	// 動物劇場
+#define SEQ_SE_98		100	// ギフトショップ
+#define SEQ_SE_99		101	// 
+#define SEQ_SE_100		102	// 
+#define SEQ_SE_101		103	// 
+#define SEQ_SE_102		104	// 
+#define SEQ_SE_103		105	// 
+#define SEQ_SE_104		106	// 
+#define SEQ_SE_105		107	// 
+#define SEQ_SE_106		108	// 
+#define SEQ_SE_107		109	// 
+#define SEQ_SE_108		110	// 
+#define SEQ_SE_109		111	// 
+#define SEQ_SE_110		112	// 拍手（小）
+#define SEQ_SE_111		113	// 
+#define SEQ_SE_112		114	// 
+#define SEQ_ROTE		115	// 
+#define SE_OKAPI		128	// オカピ
+#define SE_B_LEO		129	// クロヒョウ
+#define SE_S_LEO		130	// ユキヒョウ
+#define SE_PANDA		131	// ぱんだ
+#define SE_SEA_LION		133	// アシカ
+#define SE_PEGASUS		134	// ペガサス
+#define SE_TINROBOT		135	// ろぼ
+#define SE_SABER_TIGER	136	// サーベルタイガー
+#define SE_INSECT		137	// 昆虫
+#define SE_MARTIAN		138	// マーチン
+#define SE_KENT			139	// ケンタウロス
+#define SE_MERMAID		140	// マーメイド
+#define SE_KERBEROS		141	// ケルベロス
+#define SE_W_BENTIGER	142	// ホワイトベンガルタイガー
+#define SE_PYOON		143	// プーン(うれしい)
+#define SE_POON			144	// プーン(不機嫌)
+#define SE_CGRN			145	// 拍手（大）
+
+
+// BGM
+#define BGM_TITLE	  150	// タイトル	
+#define BGM_MENU	  151	// メニュー
+#define BGM_CREDIT	  152	// クレジット
+#define BGM_CARD	  153	// カードコレクション
+
+//</SEQ>
+
+//<END>
